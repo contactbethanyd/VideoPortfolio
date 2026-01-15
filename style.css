@@ -126,3 +126,32 @@ body {
 .about p,
 .contact p {
   margin-
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-eyebrow {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 1rem;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  letter-spacing: 0.15em;
+  margin-bottom: 1rem;
+}
+
+.section-header p {
+  max-width: 600px;
+  margin: auto;
+  font-size: 0.9rem;
+  opacity: 0.75;
+  line-height: 1.7;
+}
