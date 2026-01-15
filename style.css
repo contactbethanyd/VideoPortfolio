@@ -75,6 +75,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 3rem;
+  margin-bottom: 6rem;
 }
 
 .video-card {
@@ -100,9 +101,24 @@ body {
   letter-spacing: 0.1em;
 }
 
-.video-info span {
-  font-size: 0.75rem;
+/* SECTION HEADERS */
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-eyebrow {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
   opacity: 0.6;
+  margin-bottom: 1rem;
+}
+
+.section-header h2 {
+  font-size: 2rem;
+  letter-spacing: 0.15em;
 }
 
 /* ABOUT & CONTACT */
@@ -125,33 +141,15 @@ body {
 
 .about p,
 .contact p {
-  margin-
+  margin-bottom: 2rem;
+  line-height: 1.8;
+  opacity: 0.85;
 }
 
-.section-header {
+/* FOOTER */
+footer {
   text-align: center;
-  margin-bottom: 4rem;
-}
-
-.section-eyebrow {
-  display: block;
+  padding: 2rem;
   font-size: 0.7rem;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  opacity: 0.6;
-  margin-bottom: 1rem;
-}
-
-.section-header h2 {
-  font-size: 2rem;
-  letter-spacing: 0.15em;
-  margin-bottom: 1rem;
-}
-
-.section-header p {
-  max-width: 600px;
-  margin: auto;
-  font-size: 0.9rem;
-  opacity: 0.75;
-  line-height: 1.7;
+  opacity: 0.5;
 }
