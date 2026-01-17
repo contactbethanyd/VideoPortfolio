@@ -186,3 +186,60 @@ footer {
 .contact a:hover {
   opacity: 1;
 }
+
+.video-card video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+/* FILM REEL CONTAINER */
+.film-reel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 3rem;
+  margin-bottom: 6rem;
+}
+
+/* EACH FILM FRAME */
+.reel-frame {
+  background: #0f0f0f;
+  padding: 1rem 0;
+  border-radius: 12px;
+  position: relative;
+  text-align: center;
+}
+
+/* VIDEO */
+.reel-frame video {
+  width: 90%;
+  border-radius: 6px;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+/* TITLE */
+.reel-frame h3 {
+  color: #eee;
+  font-size: 1rem;
+  margin-top: 1rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+/* SPROCKET HOLES */
+.sprockets {
+  height: 18px;
+  margin: 10px auto;
+  width: 90%;
+  background:
+    repeating-linear-gradient(
+      to right,
+      #000 0,
+      #000 12px,
+      transparent 12px,
+      transparent 22px
+    );
+}
