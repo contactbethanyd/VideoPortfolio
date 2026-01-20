@@ -243,3 +243,19 @@ footer {
       transparent 22px
     );
 }
+
+.video-description {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  color: #ccc;
+  line-height: 1.4;
+  font-style: italic;
+  max-width: 90%;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.video-card:hover .video-description {
+  opacity: 1;
+  color: #fff;
+}
